@@ -1,0 +1,44 @@
+.header__Desafio3, .footer__Desafio3{
+    background-color: #D7D4FF;
+}
+.header__Desafio3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8vh;
+}
+
+.header__components__Desafio3{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__text__Desafio3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 5vw;
+}
+
+.header__text__button__Desafio3{
+    all: unset;
+    background-color: blueviolet;
+    color: #fff;
+    margin-top: 8vh;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.main__Desafio3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vw;
+}

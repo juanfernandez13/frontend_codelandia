@@ -1,0 +1,33 @@
+.home{
+  height: 100vh;
+  background: linear-gradient( to right, tomato,  navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container{
+  background-color: aliceblue;
+  height: 40vh;
+  width: 70vh;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__button{
+  all: unset;
+  height: 4vh;
+  margin: 10px;
+  padding: 0 20px;
+  background-color:palegreen;
+  border-radius: 10px;
+  cursor: pointer;
+}
+a{
+  all: unset;
+
+}

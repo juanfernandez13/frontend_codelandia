@@ -1,0 +1,31 @@
+
+.main__container{
+    margin-top: 5vh;
+    background-color:#FFF;
+    width: 80vh;
+    padding: 15px;
+    border-radius: 10px;
+}
+.main__container__inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.main__container__inicio__data{
+    font-family: 'Lexend Deca';
+    font-size: 13px;
+    color: #717171;
+}
+
+.main__container__title, .main__container__subtitle{
+    font-family: 'Lexend Deca';
+    margin: 10px 30px;
+}
+.main__container__title{
+    font-size: 24px;
+}
+.main__container__subtitle{
+    color: #717171;
+    font-size: 16px;
+}
