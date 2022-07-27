@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Desafio1 from './Pages/Desafio1'
 import Desafio2 from './Pages/Desafio2'
 import Desafio3 from './Pages/Desafio3'
+import Desafio4 from './Pages/Desafio4'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/Desafio1' element={<Desafio1/>}/>
         <Route path='/Desafio2' element={<Desafio2/>}/>
         <Route path='/Desafio3' element={<Desafio3/>}/>
+        <Route path='/Desafio4' element={<Desafio4/>}/>
       </Routes>
     </BrowserRouter>
     </div>

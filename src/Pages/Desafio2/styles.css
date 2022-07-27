@@ -1,8 +1,12 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+ }
+
 .body__Desafio2{
     width: 100%;
     margin:0px;
 }
-
 
 .header__sectionBlack__Desafio2, .header__sectionWhite__Desafio2{
     height: 5vh;
@@ -26,12 +30,15 @@
     justify-content: center;
     flex-direction: column;
     padding-left: 3vh ;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .main__Banner__text__title__Desafio2{
-    font-size: 32px;
+    margin-left: 90px;
+    font-size: 40px;
 }
 .main__Banner__text__subtitle__Desafio2{
+    margin-left: 90px;
     font-size: 18px;
 }
 
@@ -41,7 +48,11 @@
     align-items: center;
     margin: 3vh;
     text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
 
+.main__body__destaques__Desafio2 span{
+    margin-top: 5px;
 }
 
 .main__body__products__Desafio2{

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Lato;
+    src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ }
+@font-face {
+    font-family: Merriweather;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+ }
+
+.main__Desafio4{
+    display:flex;
+    flex-direction: row;
+}
+.main__imgUsers__Desafio4{
+    background-color: #F7FAFC;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__login__Desafio4{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__loginComponents__Desafio4{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title__Desafio4{
+    margin-bottom: 4vh;
+    font-family: 'Merriweather';
+    font-size: 26px;
+}
+.main__title__Desafio4 h3{
+    font-size: 22px;
+}
+
+.main__loginSectionInput__Desafio4{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.main__loginSectionInput__Desafio4 input{
+   height: 30px;
+   margin-top: 5px;
+}
+
+.main__a__Desafio4{
+    color: #2B6CB0;
+}
+
+.main__loginSectionOptions__Desafio4{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main__button__Desafio4,.main__buttonGoogle__Desafio4{
+    all: unset;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 1vh;
+    height: 5vh;
+    width: 30vw;
+}
+
+.main__button__Desafio4{
+    background-color: #04C35C;
+}
+
+.main__buttonGoogle__Desafio4{
+    background-color: #1A202C;
+    margin-bottom: 30px;
+}
+.main__buttonGoogle__Desafio4 img{
+    margin-right: 15px;
+}
+
+.main__criarConta__Desafio4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main__criarConta__Desafio4 a{
+    padding-left: 5px;
+}

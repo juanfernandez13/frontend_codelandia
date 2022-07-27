@@ -9,7 +9,7 @@ const CardDesafio3 = () => {
 
             <section className="Card__text__Desafio3">
                 <h3>Título do card</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <p className="Card__text__p__Desafio3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
             </section>
         </article>
     );

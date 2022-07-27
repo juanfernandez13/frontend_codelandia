@@ -1,14 +1,22 @@
 .article__card__Desafio3{
     height: 40vh;
-    width: 40vh;
-    background-color: tomato;
+    width: 35vh;
+    background-color: #fff;
     margin: 2vw;
 }
 
 .Card__img__Desafio3{
-    height: 15vh;
+    height: 20vh;
     background-color: aqua;
 }
 
 .Card__text__Desafio3{
+    margin: 3vh 1vw;
+    font-family: 'Merriweather';
+    font-size: 20px;
+}
+.Card__text__p__Desafio3{
+    width: 30vh;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
 }

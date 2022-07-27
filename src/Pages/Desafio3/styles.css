@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Lato;
+    src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ }
+@font-face {
+    font-family: Merriweather;
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+ }
+
 .header__Desafio3, .footer__Desafio3{
     background-color: #D7D4FF;
 }
@@ -12,14 +21,26 @@
     width: 75vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header__text__Desafio3{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-right: 5vw;
+    width: 20vw;
+}
+.header__text__title__Desafio3{
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.header__text__subtitle__Desafio3{
+    font-family: 'Lato', sans-serif;
+    color: #555555;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 .header__text__button__Desafio3{
@@ -33,6 +54,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .main__Desafio3{
@@ -41,4 +63,63 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5vw;
+    background-color: #F9F9F9;
+}
+
+.footer__Desafio3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 3vh;
+}
+
+.footer__title__Desafio3{
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 8vh;
+}
+
+.footer__input__Desafio3, .footer__inputMensagem__Desafio3, .footer__button__Desafio3{
+    all: unset;
+    margin-top:3vh ;
+}
+.footer__input__Desafio3, .footer__inputMensagem__Desafio3{
+    background-color: #fff;
+    height: 5vh;
+    width: 40vw;
+    padding: 0 0.5vw;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder {
+    color: #6E7275BD;
+    opacity: 0.75;
+}
+  
+:-ms-input-placeholder { 
+    color: #6E7275BD;
+    opacity: 0.75;
+}
+  
+::placeholder {
+    color: #6E7275BD;
+    opacity: 0.75;
+}
+
+.footer__inputMensagem__Desafio3{
+    height: 10vh;
+}
+
+.footer__button__Desafio3{
+    background-color:#6C63FF;
+    color: #fff;
+    height: 5vh;
+    width: 41vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+    cursor: pointer;
 }
