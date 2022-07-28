@@ -1,0 +1,33 @@
+.body__Desafio5{
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vw;
+}
+
+.header__Desafio5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__Desafio5 button,.main__rowButtons__Desafio5 button{
+    all: unset;
+    margin: 0 1vw;
+}
+
+.main__Desafio5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.main__Desafio5 h3{
+    
+}
+
+
+
