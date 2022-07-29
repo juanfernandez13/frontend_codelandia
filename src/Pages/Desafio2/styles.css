@@ -8,11 +8,12 @@
     margin:0px;
 }
 
-.header__sectionBlack__Desafio2, .header__sectionWhite__Desafio2{
+.header__sectionBlack__Desafio2, .header__sectionWhite__Desafio2, .footer__Desafio2{
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 .header__sectionBlack__Desafio2{
     color:#fff;
@@ -22,6 +23,7 @@
 .main__Banner__Desafio2{
     background:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)),url('../../assets/Desafio2/banner.svg');
     height: 50vh;
+    padding: 0px 90px;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -29,16 +31,13 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    padding-left: 3vh ;
     font-family: 'Montserrat',sans-serif;
 }
 
 .main__Banner__text__title__Desafio2{
-    margin-left: 90px;
     font-size: 40px;
 }
 .main__Banner__text__subtitle__Desafio2{
-    margin-left: 90px;
     font-size: 18px;
 }
 
@@ -53,6 +52,7 @@
 
 .main__body__destaques__Desafio2 span{
     margin-top: 5px;
+    font-size: 1.2rem;
 }
 
 .main__body__products__Desafio2{
@@ -62,14 +62,8 @@
     flex-wrap: wrap;
 }
 
-
-
 .footer__Desafio2{
     background-color: #000;
-    height: 5vh;
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 

@@ -4,7 +4,7 @@ import CardDesafio3 from '../../components/Desafio3';
 
 const Desafio3 = () => {
     return (
-        <div>
+        <div className='body__Desafio3'>
             <header className="header__Desafio3">
 
                 <section className='header__components__Desafio3'>

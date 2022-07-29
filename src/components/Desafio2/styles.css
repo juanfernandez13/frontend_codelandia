@@ -1,10 +1,9 @@
 .main__body__card__Desafio2{
     background-color: #EBE9EA;
+    height: 350px;
+    width: 350px;
     margin: 25px;
-    width: 35vh;
-    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
 }

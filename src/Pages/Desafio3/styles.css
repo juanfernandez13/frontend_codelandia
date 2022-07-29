@@ -7,13 +7,14 @@
     src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
  }
 
+
 .header__Desafio3, .footer__Desafio3{
     background-color: #D7D4FF;
 }
 .header__Desafio3{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 8vh;
 }
 
@@ -22,13 +23,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .header__text__Desafio3{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 20vw;
+    width: 400px;
 }
 .header__text__title__Desafio3{
     font-family: 'Merriweather';
@@ -47,12 +49,15 @@
     all: unset;
     background-color: blueviolet;
     color: #fff;
-    margin-top: 8vh;
-    width: 5vw;
-    height: 5vh;
+    margin: 6vh 0;
+    padding: 1vh;
+    width: 8vw;
+    min-width: 120px;
+    min-height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -64,6 +69,7 @@
     flex-wrap: wrap;
     gap: 5vw;
     background-color: #F9F9F9;
+    padding: 30px;
 }
 
 .footer__Desafio3{
@@ -83,6 +89,8 @@
 .footer__input__Desafio3, .footer__inputMensagem__Desafio3, .footer__button__Desafio3{
     all: unset;
     margin-top:3vh ;
+    min-height: 50px;
+    min-width: 200px;
 }
 .footer__input__Desafio3, .footer__inputMensagem__Desafio3{
     background-color: #fff;
@@ -115,6 +123,7 @@
     color: #fff;
     height: 5vh;
     width: 41vw;
+    min-height: 50px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -122,4 +131,10 @@
     font-family: 'Lato',sans-serif;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) {
+    .header__text__button__Desafio3{
+      margin: 2vh 0 8vh;  
+    }
 }
