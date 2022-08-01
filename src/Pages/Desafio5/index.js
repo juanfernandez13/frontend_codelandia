@@ -12,7 +12,7 @@ const Desafio5 = () => {
         <div className="body__Desafio5">
 
             <header className="header__Desafio5">
-                <img src={logoGhibli}/>
+                <figure><img src={logoGhibli}/></figure>
                 <nav className="nav__Desafio5">
                     <button className='nav__Button'><img src={facebook} /></button>
                     <button className='nav__Button'><img src={instagram} /></button>
@@ -32,7 +32,7 @@ const Desafio5 = () => {
                         
                     </section>
                 </section>
-                <img src={kaonashi}/>
+                <figure><img src={kaonashi} className='main__img__Desafio5'/></figure>
             </main>
         </div>
     );
